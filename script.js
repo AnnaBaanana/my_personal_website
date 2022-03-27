@@ -8,7 +8,7 @@ function daysProgramming(x,y) {
     var date_now = new Date();
     const diffTime = Math.abs(date_now - start_date);
     const diffDays =diffTime/(1000*60*60*24)
-    return `I have been coding for ${diffDays} days now.`;
+    return `So far I have been coding for ${diffDays} days.`;
     
 }
 
